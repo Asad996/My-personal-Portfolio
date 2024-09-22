@@ -5,6 +5,7 @@ import SummarySection from './Components/SummarySection'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import CarouselComponent from './Components/CarouselComponent';
+import Tools from './Components/Tools';
 
 
 const App = () => {
@@ -12,9 +13,8 @@ const App = () => {
     <>
    <HeroSection/>
     <SummarySection/>
-
-  
       <CarouselComponent/>
+      <Tools/>
    
   
     </>
