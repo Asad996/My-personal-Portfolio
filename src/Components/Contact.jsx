@@ -60,9 +60,10 @@ const Contact = () => {
       {/* Overlay text with letter-by-letter animation */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full bg-black bg-opacity-50 p-6 text-center">
         {/* Main heading */}
-        <h1 className="text-[5rem] md:text-[10rem] lg:text-[14rem] font-bold tracking-widest">
+        <h1 className="text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[7rem] xl:text-[10rem] 2xl:text-[14rem] font-bold tracking-widest">
           <AnimatedText text="CONTACT" />
         </h1>
+
 
         {/* Subtitle and Email link */}
         <motion.p
@@ -74,7 +75,7 @@ const Contact = () => {
           Got a question, proposal, project, or want to work together on something?
           <br />
           <a
-            href="mailto:your-asadabbas235431@gmail.com"
+            href="asadabbas235431@gmail.com"
             className="underline text-lg md:text-xl lg:text-2xl mt-4"
           >
             SEND ME AN EMAIL
