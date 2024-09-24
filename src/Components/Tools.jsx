@@ -23,7 +23,7 @@ const Tools = () => {
 
   return (
     <>
-      <div className="bg-black text-white pl-12 pb-12">
+      <div className="bg-black text-white pl-12 pb-12 pt-12 md:pt-0">
         <p className="text-center text-5xl font-bold">TOOLS I'M USING</p>
 
         {/* FRONTEND SECTION */}
