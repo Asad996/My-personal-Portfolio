@@ -51,8 +51,11 @@ const HeroSection = () => {
         Your browser does not support the video tag.
       </video>
 
+      {/* Gradient overlay to blend into the dark background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+
       {/* Overlay text with letter-by-letter animation */}
-      <div className="relative z-10 flex items-center justify-center h-full bg-black bg-opacity-50">
+      <div className="relative z-10 flex items-center justify-center h-full">
         <h1 className="text-4xl md:text-6xl font-bold">
           <AnimatedText text="Hi, I'm Asad Abbas." />
         </h1>

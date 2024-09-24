@@ -35,7 +35,7 @@ const CarouselComponent = () => {
   return (
     <>
       <div className="flex justify-center items-center bg-black text-white py-12">
-        <span className="border-white hover:border-2 p-1 cursor-pointer rounded-2xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+        <span className="  cursor-pointer  text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
           Check out some of my work!
         </span>
       </div>
@@ -46,7 +46,7 @@ const CarouselComponent = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className="w-11/12 p-4 rounded-2xl overflow-hidden shadow-lg border-4 bg-[#8080801e] backdrop-blur-lg group transition-all duration-300 ease-in-out"
+            className="w-11/12 p-4 rounded-2xl overflow-hidden shadow-lg border-4 bg-black backdrop-blur-lg group transition-all duration-300 ease-in-out"
           >
             <div className="flex flex-col items-center">
               <div className="flex justify-center text-4xl mb-4">

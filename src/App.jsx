@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import CarouselComponent from './Components/CarouselComponent';
 import Tools from './Components/Tools';
+import Contact from './Components/Contact';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <SummarySection/>
       <CarouselComponent/>
       <Tools/>
+      <Contact/>
    
   
     </>
