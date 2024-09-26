@@ -30,7 +30,7 @@ const Tools = () => {
         <div>
           <p className="my-16 text-3xl">FRONTEND</p>
           <motion.div
-            className="flex gap-12 text-6xl my-6 relative"
+            className="flex gap-12 text-6xl my-6 relative flex-wrap"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -66,7 +66,7 @@ const Tools = () => {
         <div>
           <p className="my-16 text-3xl">BACKEND</p>
           <motion.div
-            className="flex gap-12 text-6xl my-6 relative"
+            className="flex gap-12 text-6xl my-6 relative flex-wrap"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -96,7 +96,7 @@ const Tools = () => {
         <div>
           <p className="my-16 text-3xl">OTHER</p>
           <motion.div
-            className="flex gap-6 text-5xl my-6 relative"
+            className="flex gap-6 text-5xl my-6 relative flex-wrap"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
