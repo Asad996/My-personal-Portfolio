@@ -75,12 +75,13 @@ const Contact = () => {
           Got a question, proposal, project, or want to work together on something?
           <br />
           <a
-            href="asadabbas235431@gmail.com"
+            href="mailto:asadabbas235431@gmail.com"
             className="underline text-lg md:text-xl lg:text-2xl mt-4"
           >
             SEND ME AN EMAIL
           </a>
         </motion.p>
+
 
         {/* Social Links */}
         <motion.div
